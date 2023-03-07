@@ -50,9 +50,9 @@ const OverlayView = ({ position, pane = 'floatPane', map, maps, zIndex, children
 	return createPortal(children, container)
 }
 
-OverlayView.defaultProps = {
-	zIndex: 0,
-}
+// OverlayView.defaultProps = {
+// 	zIndex: 0,
+// }
 
 OverlayView.propTypes = {
 	/**
